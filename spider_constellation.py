@@ -1,7 +1,7 @@
 import scrapy
 
 class BlogSpider(scrapy.Spider):
-    name = 'blogspider'
+    name = 'constellation_spider'
     start_urls = ['http://cstrecords.com/artists/']
 
     def parse(self, response):
