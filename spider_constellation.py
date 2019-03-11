@@ -1,4 +1,7 @@
 import scrapy
+import logging
+
+logging.getLogger('scrapy').setLevel(logging.WARNING)
 
 
 class BlogSpider(scrapy.Spider):
